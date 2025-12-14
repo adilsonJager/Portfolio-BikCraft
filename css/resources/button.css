@@ -1,0 +1,26 @@
+.button {
+  font-size: 1.125rem;
+  line-height: 1.33;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  color: #332200;
+  display: inline-block;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0,0, .1);
+  text-transform: uppercase;
+}
+
+.button:hover{
+   background: linear-gradient(#ffb60d, #e59317);
+}
+
+
+@media (max-width: 935px){
+  .button {
+  font-size: 1rem;
+  padding: 1rem;
+  justify-self: center;
+  display: block;
+}
+}
