@@ -1,6 +1,12 @@
 @import './globals/global.css';
+@import './resources/colors.css';
 @import './header/header.css';
+
+/* resources */
 @import './resources/button.css';
+@import '/css/resources/typography.css';
+
+
 
 /* Home */
 @import './home/introduction.css';

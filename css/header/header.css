@@ -1,6 +1,5 @@
-
 .header-bg {
-  background-color: #000000;
+  background-color: var(--c12);
 }
 
 .header {
@@ -22,7 +21,7 @@
   gap: 2.5rem;
 
   a {
-    color: #fff;
+    color: var(--w);
     display: inline-block;
     padding: 1rem 1rem;
     font-size: 1.125rem;
@@ -38,7 +37,7 @@
   height: 2px;
   width: 0;
   margin-top: 4px;
-  background: #fff;
+  background: var(--w);
   position: absolute;
 }
 
@@ -47,7 +46,7 @@
   transition: 0.3s;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .header-menu {
     gap: 0.8rem;
   }
@@ -64,6 +63,6 @@
   }
 
   .header-menu a:hover {
-    background-color: #2e2e2e;
+    background-color: var(--c10);
   }
 }

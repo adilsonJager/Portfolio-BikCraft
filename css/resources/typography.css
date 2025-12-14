@@ -1,0 +1,22 @@
+.large-text-title {
+  font-size: 4rem;
+  line-height: 1.125;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.medium-text-paragraphy {
+  margin-bottom: 1.25rem;
+  font-size: 1.56rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+  .large-text-title {
+    font-size: 3rem;
+  }
+
+  .medium-text-paragraphy {
+    font-size: 1.25rem;
+  }
+}
